@@ -1,0 +1,10 @@
+[package]
+name = "sandbox-evers"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.22", features = ["derive"] }
+# html5ever = "0.27.0"
+markup5ever_rcdom = "0.3.0"
+xml5ever = "0.18.0"
